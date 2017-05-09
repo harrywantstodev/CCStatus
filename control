@@ -1,0 +1,9 @@
+Package: com.harrywantstodev.ccstatus
+Name: CCStatus
+Depends: mobilesubstrate
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: Set custom statuses for control center toggles 
+Maintainer: harrywantstodev
+Author: harrywantstodev
+Section: Tweaks

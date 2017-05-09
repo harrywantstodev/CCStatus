@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+				<dict>
+					<key>footerText</key>
+					<string> </string>
+					<key>icon</key>
+					<string>wifi.png</string>
+					<key>cell</key>
+					<string>PSButtonCell</string>
+					<key>cellClass</key>
+					<string>HBTintedTableCell</string>
+					<key>label</key>
+					<string>WiFi</string>
+				</dict>
+				<dict>
+						<key>cell</key>             <string>PSEditTextCell</string>
+						<key>defaults</key>         <string>com.harrywantstodev.ccstatus</string>
+						<key>key</key>              <string>wifiTextOn</string>
+						<key>label</key>            <string>Enable Text: </string>
+						<key>PostNotification</key> <string>com.harrywantstodev.ccstatus/settingschanged</string>
+				</dict>
+        <dict>
+            <key>cell</key>             <string>PSEditTextCell</string>
+            <key>defaults</key>         <string>com.harrywantstodev.ccstatus</string>
+            <key>key</key>              <string>wifiText</string>
+            <key>label</key>            <string>Disable Text: </string>
+            <key>PostNotification</key> <string>com.harrywantstodev.ccstatus/settingschanged</string>
+        </dict>
+				<dict>
+					<key>cell</key>
+					<string>PSGroupCell</string>
+					<key>footerText</key>
+					<string> </string>
+					<key>label</key>
+					<string> </string>
+					</dict>
+				<dict>
+					<key>footerText</key>
+					<string> </string>
+					<key>icon</key>
+					<string>dnd.png</string>
+					<key>cell</key>
+					<string>PSButtonCell</string>
+					<key>cellClass</key>
+					<string>HBTintedTableCell</string>
+					<key>label</key>
+					<string>Do Not Disturb</string>
+				</dict>
+				<dict>
+						<key>cell</key>             <string>PSEditTextCell</string>
+						<key>defaults</key>         <string>com.harrywantstodev.ccstatus</string>
+						<key>key</key>              <string>dndTextOn</string>
+						<key>label</key>            <string>Enable Text: </string>
+						<key>PostNotification</key> <string>com.harrywantstodev.ccstatus/settingschanged</string>
+				</dict>
+				<dict>
+						<key>cell</key>             <string>PSEditTextCell</string>
+						<key>defaults</key>         <string>com.harrywantstodev.ccstatus</string>
+						<key>key</key>              <string>dndText</string>
+						<key>label</key>            <string>Disable Text: </string>
+						<key>PostNotification</key> <string>com.harrywantstodev.ccstatus/settingschanged</string>
+				</dict>
+				<dict>
+					<key>cell</key>
+					<string>PSGroupCell</string>
+					<key>footerText</key>
+					<string> </string>
+					<key>label</key>
+					<string> </string>
+					</dict>
+				<dict>
+					<key>footerText</key>
+					<string> </string>
+					<key>icon</key>
+					<string>lock.png</string>
+					<key>cell</key>
+					<string>PSButtonCell</string>
+					<key>cellClass</key>
+					<string>HBTintedTableCell</string>
+					<key>label</key>
+					<string>Rotation Lock</string>
+				</dict>
+				<dict>
+						<key>cell</key>             <string>PSEditTextCell</string>
+						<key>defaults</key>         <string>com.harrywantstodev.ccstatus</string>
+						<key>key</key>              <string>lockTextOn</string>
+						<key>label</key>            <string>Enable Text: </string>
+						<key>PostNotification</key> <string>com.harrywantstodev.ccstatus/settingschanged</string>
+				</dict>
+				<dict>
+						<key>cell</key>             <string>PSEditTextCell</string>
+						<key>defaults</key>         <string>com.harrywantstodev.ccstatus</string>
+						<key>key</key>              <string>lockText</string>
+						<key>label</key>            <string>Disable Text: </string>
+						<key>PostNotification</key> <string>com.harrywantstodev.ccstatus/settingschanged</string>
+				</dict>
+				<dict>
+					<key>cell</key>
+					<string>PSGroupCell</string>
+					<key>footerText</key>
+					<string> </string>
+					<key>label</key>
+					<string> </string>
+					</dict>
+				<dict>
+					<key>footerText</key>
+					<string> </string>
+					<key>icon</key>
+					<string>plane.png</string>
+					<key>cell</key>
+					<string>PSButtonCell</string>
+					<key>cellClass</key>
+					<string>HBTintedTableCell</string>
+					<key>label</key>
+					<string>Airplane Mode</string>
+				</dict>
+				<dict>
+						<key>cell</key>             <string>PSEditTextCell</string>
+						<key>defaults</key>         <string>com.harrywantstodev.ccstatus</string>
+						<key>key</key>              <string>planeTextOn</string>
+						<key>label</key>            <string>Enable Text: </string>
+						<key>PostNotification</key> <string>com.harrywantstodev.ccstatus/settingschanged</string>
+				</dict>
+				<dict>
+						<key>cell</key>             <string>PSEditTextCell</string>
+						<key>defaults</key>         <string>com.harrywantstodev.ccstatus</string>
+						<key>key</key>              <string>planeText</string>
+						<key>label</key>            <string>Disable Text: </string>
+						<key>PostNotification</key> <string>com.harrywantstodev.ccstatus/settingschanged</string>
+				</dict>
+				<dict>
+					<key>cell</key>
+					<string>PSGroupCell</string>
+					<key>footerText</key>
+					<string> </string>
+					<key>label</key>
+					<string> </string>
+					</dict>
+				<dict>
+					<key>footerText</key>
+					<string> </string>
+					<key>icon</key>
+					<string>tooth.png</string>
+					<key>cell</key>
+					<string>PSButtonCell</string>
+					<key>cellClass</key>
+					<string>HBTintedTableCell</string>
+					<key>label</key>
+					<string>BlueTooth</string>
+				</dict>
+				<dict>
+						<key>cell</key>             <string>PSEditTextCell</string>
+						<key>defaults</key>         <string>com.harrywantstodev.ccstatus</string>
+						<key>key</key>              <string>toothTextOn</string>
+						<key>label</key>            <string>Enable Text: </string>
+						<key>PostNotification</key> <string>com.harrywantstodev.ccstatus/settingschanged</string>
+				</dict>
+				<dict>
+						<key>cell</key>             <string>PSEditTextCell</string>
+						<key>defaults</key>         <string>com.harrywantstodev.ccstatus</string>
+						<key>key</key>              <string>toothText</string>
+						<key>label</key>            <string>Disable Text: </string>
+						<key>PostNotification</key> <string>com.harrywantstodev.ccstatus/settingschanged</string>
+				</dict>
+				<dict>
+					<key>cell</key>
+					<string>PSGroupCell</string>
+					<key>footerText</key>
+					<string> </string>
+					<key>label</key>
+					<string> </string>
+					</dict>
+          <dict>
+            <key>footerText</key>
+            <string> </string>
+            <key>icon</key>
+            <string>low.png</string>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>cellClass</key>
+            <string>HBTintedTableCell</string>
+            <key>label</key>
+            <string>Low Power Mode</string>
+          </dict>
+          <dict>
+              <key>cell</key>             <string>PSEditTextCell</string>
+              <key>defaults</key>         <string>com.harrywantstodev.ccstatus</string>
+              <key>key</key>              <string>lowTextOn</string>
+              <key>label</key>            <string>Enable Text: </string>
+              <key>PostNotification</key> <string>com.harrywantstodev.ccstatus/settingschanged</string>
+          </dict>
+          <dict>
+              <key>cell</key>             <string>PSEditTextCell</string>
+              <key>defaults</key>         <string>com.harrywantstodev.ccstatus</string>
+              <key>key</key>              <string>lowText</string>
+              <key>label</key>            <string>Disable Text: </string>
+              <key>PostNotification</key> <string>com.harrywantstodev.ccstatus/settingschanged</string>
+          </dict>
+          <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>footerText</key>
+            <string> </string>
+            <key>label</key>
+            <string> </string>
+            </dict>
+        <dict>
+            <key>cell</key>             <string>PSButtonCell</string>
+            <key>label</key>            <string>Save &amp; Respring</string>
+            <key>action</key>           <string>save</string>
+        </dict>
+    </array>
+    <key>title</key>
+    <string>CCStatus</string>
+</dict>
+</plist>
